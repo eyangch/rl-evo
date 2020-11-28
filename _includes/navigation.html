@@ -1,23 +1,25 @@
-<!-- This finds the current page so it can be highlighted. -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/rl-evo">rl-evo</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      {% for entry in site.data.navigation %}
+        <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
 
-{% for entry in site.data.navigation %}
-{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}
-    {% if fullurl == page.url %}
-        {% assign current_page = fullurl %}
-        {% break %}
-    {% elsif page.url contains fullurl %}
-        {% assign current_page = fullurl %}
-    {% endif %}
-{% endfor %}
-
-<!-- Then we build the nav bar. -->
+<!-- Then we build the nav bar. 
 <nav>
     <ul>
     {% for entry in site.data.navigation %}
         {% if entry.url == current_page %}
             {% assign current = ' class="current"' %}
         {% else %}
-            <!-- We have to declare it 'null' to ensure it doesn't propagate. -->
+            <!-- We have to declare it 'null' to ensure it doesn't propagate.
             {% assign current = null %}
         {% endif %}
         {% assign sublinks = entry.sublinks %}
@@ -36,3 +38,4 @@
     {% endfor %}
     </ul>
 </nav>
+-->
