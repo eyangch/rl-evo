@@ -2,3 +2,4 @@ theme: jekyll-theme-cayman
 title: Reinforcement Learning vs Evolution
 description: By Eric Yang
 baseurl: /rl-evo
+markdown: CommonMarkGhPages
