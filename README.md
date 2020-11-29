@@ -9,3 +9,5 @@ Even though both reinforcement learning and evolutionary algorithms use neural n
 [Reinforcement Learning](rl.html) 
 
 [Evolutionary Algorithms](ev.html)
+
+[Comparing Algorithms](compare.html)
