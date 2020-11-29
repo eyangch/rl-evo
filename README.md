@@ -4,4 +4,8 @@ Reinforcement learning and evolutionary algorithms both aim to train an agent, o
 
 [![A neural network](https://nickmccullum.com/images/python-deep-learning/what-is-deep-learning/artificial-neural-net.png)](https://www.freecodecamp.org/news/deep-learning-neural-networks-explained-in-plain-english/)
 
-However, reinforcement learning and evolutionary algorithms have completely different ways of learning and gathering new information using the neural networks. 
+However, reinforcement learning and evolutionary algorithms have completely different ways of learning and gathering new information using the neural networks. How do they work? 
+
+[Reinforcement Learning](/rl.html) 
+
+[Evolutionary Algorithms](/ev.html)
