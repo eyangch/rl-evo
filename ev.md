@@ -4,6 +4,6 @@ Evolutionary algorithms use randomness to become good at a task instead of math.
 
 <img src="https://eng.uber.com/wp-content/uploads/2017/12/Header-1.png" alt="AI Evolution" width="700"/>
 
-As you can tell, this algorithm is a lot simpler than reinforcement learning, although it requires a lot more simulation. However, evolutionary algorithms are also much faster at simulation, as they don't require lots of complex math. 
+As you can tell, this algorithm is a lot simpler than reinforcement learning, although it requires a lot more simulation due to the number of generations required to pass before the population will significantly improve. However, evolutionary algorithms are also much faster at simulating, as they don't require lots of complex math. 
 
 [back](./)
