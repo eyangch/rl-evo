@@ -7,7 +7,7 @@ It can then train to better react to the situations it has seen by modifying the
 
 ![Gradient Descent](https://ml-cheatsheet.readthedocs.io/en/latest/_images/gradient_descent_demystified.png)
 
-However, just looking at the immediate reward would make the algorithm very short-sighted. To fix this issue, this algorithm also takes in account long term effects. This is achieved by including the expected rewards for actions taken at a later time in the current reward. When these later rewards are considered, they are multiplied by a factor, usually called gamma (γ), between 0 and 1 (usually around 0.95) to make the algorithm focus on short term effects but also take into account long term effects. These adjusted rewards are called Q-values. For each state and action, there is a corresponding Q-value.
+However, just looking at the immediate reward would make the algorithm very short-sighted. To fix this issue, this algorithm also takes in account long term effects. This is achieved by including the expected rewards for actions taken at a later time in the current reward. When these later rewards are considered, they are multiplied by a factor, usually called gamma (γ), between 0 and 1 (usually around 0.95) to make the algorithm focus on short term effects but also take into account long term effects. This very closely resembles how humans learn. These adjusted rewards are called Q-values. For each state and action, there is a corresponding Q-value.
 
 ![Q Learning](https://cdn-media-1.freecodecamp.org/images/s39aVodqNAKMTcwuMFlyPSy76kzAmU5idMzk)
 
