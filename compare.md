@@ -473,6 +473,8 @@ pygame.quit()
     
 </details>
 
+Right after starting, the agent already mostly learned that hitting the wall = bad, so it avoids that. However, it still doesn't really understand how to reach the red squares. After the 300000 frames, the agent learned some techniques, such as how to go towards food while not dying and how to not get trapped in a corner, but this agent still hasn't perfected the game.
+
 ### Evolutionary Algorithms
 
 No evolution implementation :( I spent too much time doing reinforcement learning :)
