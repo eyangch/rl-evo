@@ -2,6 +2,8 @@
 
 Each of these algorithms, reinforcement learning and has its pros and cons, but what do they look like in action?
 
+### Cartpole
+
 Here is my implementation reinforcement learning playing a simple [cartpole](https://gym.openai.com/envs/CartPole-v1/) game:
 
 ![RL Cartpole](./rl.gif)
@@ -129,6 +131,8 @@ if __name__ == "__main__":
 </details>
 
 <br/>
+
+### Snake
 
 Cartpole is a rather simple game, so it can quickly become rather good at the game. However, a more complicated game, like snake, can take much longer, for days, or even weeks, to become proficient at it. Here is a reinforcement algorithm to play snake I implemented with tensorflow and pygame.
 
