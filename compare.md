@@ -477,6 +477,8 @@ Right after starting, the agent already mostly learned that hitting the wall = b
 
 ### Evolutionary Algorithms
 
-No evolution implementation :( I spent too much time doing reinforcement learning :)
+No evolution implementation :(
+
+I spent too much time doing reinforcement learning :)
 
 [back](./)
