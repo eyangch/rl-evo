@@ -136,7 +136,7 @@ if __name__ == "__main__":
 
 #### Snake
 
-Cartpole is a rather simple game, so it can quickly become rather good at the game. However, a more complicated game, like snake, can take much longer, for days, or even weeks, to become proficient at it. Here is a reinforcement algorithm to play snake I implemented with tensorflow and pygame. The top gif is the initial result (random weights), and the bottom one is after 300000 frames, or a few days of training on a potato computer.
+Cartpole is a rather simple game, so it can quickly become rather good at the game. However, a more complicated game, like snake, can take much longer, for days, or even weeks, to become proficient at it. Here is a reinforcement algorithm to play snake I implemented with tensorflow and pygame. The top gif is the initial result (random weights), and the bottom one is after 300000 frames, or a few days of training on a potato computer. (the images are sped up)
 
 ![0 frames](./rlsnake0.gif)
 
