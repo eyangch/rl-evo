@@ -9,7 +9,7 @@ Here is my implementation reinforcement learning playing a simple [cartpole](htt
 At first, it is complete and utter garbage at the game. It keeps falling over without any "strategy". After just 30 seconds, the agent learns some strategies, such as countering the falling pole by moving in that direction.
 
 <details>
-  <summary>Main Snake Reinforcement Learning Code (Click to expand)</summary>
+  <summary>Reinforcement Learning Cartpole Code (Click to expand)</summary>
   
   ```py
 import os
@@ -127,6 +127,8 @@ if __name__ == "__main__":
 ```
     
 </details>
+
+<br/>
 
 Cartpole is a rather simple game, so it can quickly become rather good at the game. However, a more complicated game, like snake, can take much longer, for days, or even weeks, to become proficient at it. Here is a reinforcement algorithm to play snake I implemented with tensorflow and pygame.
 
